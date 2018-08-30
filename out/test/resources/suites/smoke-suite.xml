@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke suite" >
+    <test name="Chrome tests"  >
+        <classes>
+            <class name="com.waverley.testcases.LoginBookingTest" />
+            <class name="com.waverley.testcases.LoginPageEndpointsPingTest" />
+            <class name="com.waverley.testcases.SignUpNewUserTest" />
+        </classes>
+    </test>
+</suite>

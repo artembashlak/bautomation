@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bashlak'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile "org.testng:testng:6.3.1"
+    testCompile 'com.codeborne:selenide:4.14.0'
+    testCompile (group: 'io.rest-assured', name: 'rest-assured', version:'3.0.2') {
+        exclude(module: 'groovy')
+    }
+    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.4.6'
+}
+
+test {
+    useTestNG()
+}
