@@ -4,61 +4,21 @@
   "children" : [ {
     "name" : "MacBook-Pro2231.local",
     "children" : [ {
-      "name" : "11259@MacBook-Pro2231.local.Test worker(10)",
+      "name" : "13343@MacBook-Pro2231.local.Test worker(10)",
       "children" : [ {
-        "name" : "loginPageIsAvailble",
-        "uid" : "e506a18537af0988",
-        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
+        "name" : "wikiSearchTest",
+        "uid" : "35ff3e81b7f6d846",
+        "parentUid" : "358c4043bc2328d44a0d357ba91252c6",
         "status" : "passed",
         "time" : {
-          "start" : 1535708733083,
-          "stop" : 1535708735812,
-          "duration" : 2729
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "newUserRegistration",
-        "uid" : "81485504682fbd2a",
-        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
-        "status" : "failed",
-        "time" : {
-          "start" : 1535708735819,
-          "stop" : 1535708741073,
-          "duration" : 5254
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "userCanLoginByUsername",
-        "uid" : "302738dae3ef9d2f",
-        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
-        "status" : "passed",
-        "time" : {
-          "start" : 1535708723871,
-          "stop" : 1535708732928,
-          "duration" : 9057
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7cecdbccd3a7459af39e5457ea26b530"
-    }, {
-      "name" : "12588@MacBook-Pro2231.local.Test worker(10)",
-      "children" : [ {
-        "name" : "openGoogle",
-        "uid" : "a9c950bdc3e8fd8c",
-        "parentUid" : "7b4eaf17fae8da086486120fe4f7009d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1535719376048,
-          "stop" : 1535719388580,
-          "duration" : 12532
+          "start" : 1535723558602,
+          "stop" : 1535723565676,
+          "duration" : 7074
         },
         "flaky" : false,
         "parameters" : [ "chrome", "LINUX" ]
       } ],
-      "uid" : "7b4eaf17fae8da086486120fe4f7009d"
+      "uid" : "358c4043bc2328d44a0d357ba91252c6"
     } ],
     "uid" : "9724932530faa9002db73cb77ae1cb29"
   } ]

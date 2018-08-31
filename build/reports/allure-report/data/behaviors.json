@@ -2,50 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "userCanLoginByUsername",
-    "uid" : "302738dae3ef9d2f",
+    "name" : "wikiSearchTest",
+    "uid" : "35ff3e81b7f6d846",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1535708723871,
-      "stop" : 1535708732928,
-      "duration" : 9057
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "loginPageIsAvailble",
-    "uid" : "e506a18537af0988",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1535708733083,
-      "stop" : 1535708735812,
-      "duration" : 2729
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "newUserRegistration",
-    "uid" : "81485504682fbd2a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1535708735819,
-      "stop" : 1535708741073,
-      "duration" : 5254
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "openGoogle",
-    "uid" : "a9c950bdc3e8fd8c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1535719376048,
-      "stop" : 1535719388580,
-      "duration" : 12532
+      "start" : 1535723558602,
+      "stop" : 1535723565676,
+      "duration" : 7074
     },
     "flaky" : false,
     "parameters" : [ "chrome", "LINUX" ]
