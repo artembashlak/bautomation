@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.waverley.testcases.SimpleDockerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-31T12:42:55" hostname="MacBook-Pro2231.local" time="12.682">
+  <properties/>
+  <testcase name="openGoogle" classname="com.waverley.testcases.SimpleDockerTest" time="12.682"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 31, 2018 3:43:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

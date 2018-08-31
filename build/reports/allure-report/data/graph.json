@@ -1,5 +1,5 @@
 [ {
-  "uid" : "6815aaa6b6c17c2a",
+  "uid" : "e506a18537af0988",
   "name" : "loginPageIsAvailble",
   "time" : {
     "start" : 1535708733083,
@@ -9,17 +9,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "981792a087049f59",
-  "name" : "userCanLoginByUsername",
+  "uid" : "a9c950bdc3e8fd8c",
+  "name" : "openGoogle",
   "time" : {
-    "start" : 1535708723871,
-    "stop" : 1535708732928,
-    "duration" : 9057
+    "start" : 1535719376048,
+    "stop" : 1535719388580,
+    "duration" : 12532
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd2da9679c598a64",
+  "uid" : "81485504682fbd2a",
   "name" : "newUserRegistration",
   "time" : {
     "start" : 1535708735819,
@@ -27,5 +27,15 @@
     "duration" : 5254
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "302738dae3ef9d2f",
+  "name" : "userCanLoginByUsername",
+  "time" : {
+    "start" : 1535708723871,
+    "stop" : 1535708732928,
+    "duration" : 9057
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

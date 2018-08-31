@@ -7,7 +7,7 @@
       "name" : "LoginBookingTest",
       "children" : [ {
         "name" : "userCanLoginByUsername",
-        "uid" : "981792a087049f59",
+        "uid" : "302738dae3ef9d2f",
         "parentUid" : "9c19fd73e68030d78ef9a32c678d4b31",
         "status" : "passed",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "LoginPageEndpointsPingTest",
       "children" : [ {
         "name" : "loginPageIsAvailble",
-        "uid" : "6815aaa6b6c17c2a",
+        "uid" : "e506a18537af0988",
         "parentUid" : "8f1a39fb1fadc79c02d92a7303d521e1",
         "status" : "passed",
         "time" : {
@@ -39,7 +39,7 @@
       "name" : "SignUpNewUserTest",
       "children" : [ {
         "name" : "newUserRegistration",
-        "uid" : "cd2da9679c598a64",
+        "uid" : "81485504682fbd2a",
         "parentUid" : "e947f596d51a2117b06372955226b0d6",
         "status" : "failed",
         "time" : {
@@ -51,6 +51,22 @@
         "parameters" : [ ]
       } ],
       "uid" : "e947f596d51a2117b06372955226b0d6"
+    }, {
+      "name" : "SimpleDockerTest",
+      "children" : [ {
+        "name" : "openGoogle",
+        "uid" : "a9c950bdc3e8fd8c",
+        "parentUid" : "22028f70671cb69583d5052147b80e6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535719376048,
+          "stop" : 1535719388580,
+          "duration" : 12532
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome", "LINUX" ]
+      } ],
+      "uid" : "22028f70671cb69583d5052147b80e6b"
     } ],
     "uid" : "com.waverley.testcases"
   } ]

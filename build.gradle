@@ -32,7 +32,7 @@ ext {
     mockitoCoreVersion = '2.13.0'
     powermockApiMockito2Version = '2.0.0-beta.5'
     powermockModuleTestngVersion = '2.0.0-beta.5'
-    assertjVersion = '3.8.0'
+    assertjVersion = '3.10.0'
 }
 
 dependencies {
@@ -52,10 +52,10 @@ dependencies {
             "io.qameta.allure:allure-testng:${allureTestngVersion}",
             "io.github.sskorol:test-data-supplier:${testDataSupplierVersion}",
             "org.slf4j:slf4j-simple:${slf4SimplejVersion}",
-            "org.mockito:mockito-com.waverley.core:${mockitoCoreVersion}",
+            "org.mockito:mockito-core:${mockitoCoreVersion}",
             "org.powermock:powermock-api-mockito2:${powermockApiMockito2Version}",
             "org.powermock:powermock-module-testng:${powermockModuleTestngVersion}",
-            "org.assertj:assertj-com.waverley.core:${assertjVersion}",
+            "org.assertj:assertj-core:${assertjVersion}",
     )
 }
 
