@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro2231.local",
+    "children" : [ {
+      "name" : "11259@MacBook-Pro2231.local.Test worker(10)",
+      "children" : [ {
+        "name" : "loginPageIsAvailble",
+        "uid" : "b1d60fc4e2aca4bb",
+        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535708733083,
+          "stop" : 1535708735812,
+          "duration" : 2729
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userCanLoginByUsername",
+        "uid" : "613ed8da25164927",
+        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535708723871,
+          "stop" : 1535708732928,
+          "duration" : 9057
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "newUserRegistration",
+        "uid" : "5c8754b95f8fc619",
+        "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535708735819,
+          "stop" : 1535708741073,
+          "duration" : 5254
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cecdbccd3a7459af39e5457ea26b530"
+    } ],
+    "uid" : "9724932530faa9002db73cb77ae1cb29"
+  } ]
+}

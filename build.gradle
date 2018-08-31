@@ -1,26 +1,63 @@
 plugins {
-    id 'java'
+    id 'io.qameta.allure' version '2.5'
 }
 
 group 'com.bashlak'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'java'
+
 sourceCompatibility = 1.8
 
+configurations {
+    agent
+}
+
 repositories {
-    mavenCentral()
     jcenter()
 }
 
+ext {
+    aspectjweaverVersion = '1.8.13'
+    testngVersion = '6.13.1'
+    seleniumJavaVersion = '3.8.1'
+    lombokVersion = '1.16.18'
+    allureTestngVersion = '2.0-BETA21'
+}
+
 dependencies {
-    compile "org.testng:testng:6.3.1"
+    agent "org.aspectj:aspectjweaver:${aspectjweaverVersion}"
     testCompile 'com.codeborne:selenide:4.14.0'
     testCompile (group: 'io.rest-assured', name: 'rest-assured', version:'3.0.2') {
         exclude(module: 'groovy')
     }
     testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.4.6'
+    compile("org.testng:testng:${testngVersion}",
+            "org.seleniumhq.selenium:selenium-java:${seleniumJavaVersion}",
+            "org.projectlombok:lombok:${lombokVersion}",
+            "io.qameta.allure:allure-testng:${allureTestngVersion}",
+    )
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion '4.3.1'
+}
+
+test.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
 }
 
 test {
-    useTestNG()
+    useTestNG() {
+        suites 'src/test/resources/suites/smoke-suite.xml'
+    }
+    systemProperty 'allure.results.directory', 'build/allure-results'
+}
+task copyConfig(type: Copy) {
+    from 'src/test/resources/config'
+    into 'build/allure-results'
+}
+allure {
+    autoconfigure = true
+    version = '2.4.1'
 }

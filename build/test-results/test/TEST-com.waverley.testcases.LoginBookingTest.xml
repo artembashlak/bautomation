@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.waverley.testcases.LoginBookingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-30T12:44:58" hostname="MacBook-Pro2231.local" time="9.239">
+<testsuite name="com.waverley.testcases.LoginBookingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-31T09:45:23" hostname="MacBook-Pro2231.local" time="9.173">
   <properties/>
-  <testcase name="userCanLoginByUsername" classname="com.waverley.testcases.LoginBookingTest" time="9.239"/>
+  <testcase name="userCanLoginByUsername" classname="com.waverley.testcases.LoginBookingTest" time="9.173"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 40465
+  <system-err><![CDATA[Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 5670
 Only local connections are allowed.
-Aug 30, 2018 3:45:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 31, 2018 12:45:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-Aug 30, 2018 3:45:04 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+Aug 31, 2018 12:45:29 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
 INFO: BrowserName=chrome Version=68.0.3440.106 Platform=MAC
-Aug 30, 2018 3:45:04 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+Aug 31, 2018 12:45:29 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
 INFO: Selenide v. 4.14.0
-Aug 30, 2018 3:45:04 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+Aug 31, 2018 12:45:29 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
 INFO: Selenium WebDriver v. 3.14.0 build time: 2018-08-02T20:19:58.91Z
-Aug 30, 2018 3:45:04 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
-INFO: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (e8e94bb27dc3192bb0de68c3c8f04abf)
+Aug 31, 2018 12:45:29 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+INFO: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (3ab28d8d75f4d313494b001425016ba9)
 ]]></system-err>
 </testsuite>

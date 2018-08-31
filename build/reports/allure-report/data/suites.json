@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Smoke suite",
+    "children" : [ {
+      "name" : "Chrome tests",
+      "children" : [ {
+        "name" : "com.waverley.testcases.LoginBookingTest",
+        "children" : [ {
+          "name" : "userCanLoginByUsername",
+          "uid" : "613ed8da25164927",
+          "parentUid" : "7073be9199388206b6d49dddb38b2695",
+          "status" : "passed",
+          "time" : {
+            "start" : 1535708723871,
+            "stop" : 1535708732928,
+            "duration" : 9057
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7073be9199388206b6d49dddb38b2695"
+      }, {
+        "name" : "com.waverley.testcases.LoginPageEndpointsPingTest",
+        "children" : [ {
+          "name" : "loginPageIsAvailble",
+          "uid" : "b1d60fc4e2aca4bb",
+          "parentUid" : "d68991715c46fd79cc6458064ac021c2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1535708733083,
+            "stop" : 1535708735812,
+            "duration" : 2729
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d68991715c46fd79cc6458064ac021c2"
+      }, {
+        "name" : "com.waverley.testcases.SignUpNewUserTest",
+        "children" : [ {
+          "name" : "newUserRegistration",
+          "uid" : "5c8754b95f8fc619",
+          "parentUid" : "f2960674fc215a9e8b56b419a184fa79",
+          "status" : "failed",
+          "time" : {
+            "start" : 1535708735819,
+            "stop" : 1535708741073,
+            "duration" : 5254
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f2960674fc215a9e8b56b419a184fa79"
+      } ],
+      "uid" : "1198fed5a2d347b728f5a604c6e645ea"
+    } ],
+    "uid" : "8421495e0d946b6e082abef4f7d8d151"
+  } ]
+}

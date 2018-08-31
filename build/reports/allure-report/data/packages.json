@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.waverley.testcases",
+    "children" : [ {
+      "name" : "LoginBookingTest",
+      "children" : [ {
+        "name" : "userCanLoginByUsername",
+        "uid" : "613ed8da25164927",
+        "parentUid" : "9c19fd73e68030d78ef9a32c678d4b31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535708723871,
+          "stop" : 1535708732928,
+          "duration" : 9057
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c19fd73e68030d78ef9a32c678d4b31"
+    }, {
+      "name" : "LoginPageEndpointsPingTest",
+      "children" : [ {
+        "name" : "loginPageIsAvailble",
+        "uid" : "b1d60fc4e2aca4bb",
+        "parentUid" : "8f1a39fb1fadc79c02d92a7303d521e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1535708733083,
+          "stop" : 1535708735812,
+          "duration" : 2729
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f1a39fb1fadc79c02d92a7303d521e1"
+    }, {
+      "name" : "SignUpNewUserTest",
+      "children" : [ {
+        "name" : "newUserRegistration",
+        "uid" : "5c8754b95f8fc619",
+        "parentUid" : "e947f596d51a2117b06372955226b0d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1535708735819,
+          "stop" : 1535708741073,
+          "duration" : 5254
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e947f596d51a2117b06372955226b0d6"
+    } ],
+    "uid" : "com.waverley.testcases"
+  } ]
+}

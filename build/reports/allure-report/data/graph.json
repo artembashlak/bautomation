@@ -1,0 +1,31 @@
+[ {
+  "uid" : "b1d60fc4e2aca4bb",
+  "name" : "loginPageIsAvailble",
+  "time" : {
+    "start" : 1535708733083,
+    "stop" : 1535708735812,
+    "duration" : 2729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "613ed8da25164927",
+  "name" : "userCanLoginByUsername",
+  "time" : {
+    "start" : 1535708723871,
+    "stop" : 1535708732928,
+    "duration" : 9057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c8754b95f8fc619",
+  "name" : "newUserRegistration",
+  "time" : {
+    "start" : 1535708735819,
+    "stop" : 1535708741073,
+    "duration" : 5254
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
