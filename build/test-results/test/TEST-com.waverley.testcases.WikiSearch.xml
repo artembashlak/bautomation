@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.waverley.testcases.WikiSearch" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-31T13:52:38" hostname="MacBook-Pro2231.local" time="7.181">
+  <properties/>
+  <testcase name="wikiSearchTest" classname="com.waverley.testcases.WikiSearch" time="7.181"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 14996
+Only local connections are allowed.
+Aug 31, 2018 4:52:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

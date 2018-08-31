@@ -3,20 +3,20 @@
     "reportName" : "Allure Report",
     "testRuns" : [ ],
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     },
     "time" : {
-      "start" : 1535708723871,
-      "stop" : 1535719388580,
-      "duration" : 10664709,
-      "minDuration" : 2729,
-      "maxDuration" : 12532,
-      "sumDuration" : 29572
+      "start" : 1535723558602,
+      "stop" : 1535723565676,
+      "duration" : 7074,
+      "minDuration" : 7074,
+      "maxDuration" : 7074,
+      "sumDuration" : 7074
     }
   },
   "environment" : [ ],
@@ -26,27 +26,27 @@
       "uid" : "8421495e0d946b6e082abef4f7d8d151",
       "name" : "Smoke suite",
       "statistic" : {
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 1,
         "unknown" : 0,
-        "total" : 4
+        "total" : 1
       }
     } ]
   },
   "history-trend" : [ {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     }
   } ],
   "behaviors" : {
-    "total" : 4,
+    "total" : 1,
     "items" : [ ]
   },
   "executors" : [ {
@@ -55,19 +55,8 @@
     "buildName" : "root project 'com.bashlak'"
   } ],
   "categories" : {
-    "total" : 1,
-    "items" : [ {
-      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
-      "name" : "Product defects",
-      "statistic" : {
-        "failed" : 1,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      }
-    } ]
+    "total" : 0,
+    "items" : [ ]
   },
   "launches" : [ ]
 }

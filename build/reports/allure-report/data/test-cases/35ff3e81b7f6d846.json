@@ -1,0 +1,68 @@
+{
+  "uid" : "35ff3e81b7f6d846",
+  "name" : "wikiSearchTest",
+  "fullName" : "com.waverley.testcases.WikiSearch.wikiSearchTest",
+  "historyId" : "803dc20bf4ba6e1578887e15fa8998ce",
+  "time" : {
+    "start" : 1535723558602,
+    "stop" : 1535723565676,
+    "duration" : 7074
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.waverley.testcases.WikiSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "com.waverley.testcases.WikiSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "wikiSearchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke suite"
+  }, {
+    "name" : "suite",
+    "value" : "Chrome tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.waverley.testcases.WikiSearch"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro2231.local"
+  }, {
+    "name" : "thread",
+    "value" : "13343@MacBook-Pro2231.local.Test worker(10)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browserName",
+    "value" : "chrome"
+  }, {
+    "name" : "platformName",
+    "value" : "LINUX"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "35ff3e81b7f6d846.json",
+  "parameterValues" : [ "chrome", "LINUX" ]
+}

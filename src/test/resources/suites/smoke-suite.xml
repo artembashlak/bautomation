@@ -5,7 +5,7 @@
         <parameter name="browserName" value="chrome"/>
         <parameter name="platformName" value="LINUX"/>
         <classes>
-            <class name="com.waverley.testcases.ChromeTest" />
+            <class name="com.waverley.testcases.WikiSearch" />
         </classes>
     </test>
 </suite>

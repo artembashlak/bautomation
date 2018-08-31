@@ -2,72 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.waverley.testcases",
+    "name" : "com.waverley.testcases.WikiSearch",
     "children" : [ {
-      "name" : "LoginBookingTest",
-      "children" : [ {
-        "name" : "userCanLoginByUsername",
-        "uid" : "302738dae3ef9d2f",
-        "parentUid" : "9c19fd73e68030d78ef9a32c678d4b31",
-        "status" : "passed",
-        "time" : {
-          "start" : 1535708723871,
-          "stop" : 1535708732928,
-          "duration" : 9057
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c19fd73e68030d78ef9a32c678d4b31"
-    }, {
-      "name" : "LoginPageEndpointsPingTest",
-      "children" : [ {
-        "name" : "loginPageIsAvailble",
-        "uid" : "e506a18537af0988",
-        "parentUid" : "8f1a39fb1fadc79c02d92a7303d521e1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1535708733083,
-          "stop" : 1535708735812,
-          "duration" : 2729
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8f1a39fb1fadc79c02d92a7303d521e1"
-    }, {
-      "name" : "SignUpNewUserTest",
-      "children" : [ {
-        "name" : "newUserRegistration",
-        "uid" : "81485504682fbd2a",
-        "parentUid" : "e947f596d51a2117b06372955226b0d6",
-        "status" : "failed",
-        "time" : {
-          "start" : 1535708735819,
-          "stop" : 1535708741073,
-          "duration" : 5254
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e947f596d51a2117b06372955226b0d6"
-    }, {
-      "name" : "SimpleDockerTest",
-      "children" : [ {
-        "name" : "openGoogle",
-        "uid" : "a9c950bdc3e8fd8c",
-        "parentUid" : "22028f70671cb69583d5052147b80e6b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1535719376048,
-          "stop" : 1535719388580,
-          "duration" : 12532
-        },
-        "flaky" : false,
-        "parameters" : [ "chrome", "LINUX" ]
-      } ],
-      "uid" : "22028f70671cb69583d5052147b80e6b"
+      "name" : "wikiSearchTest",
+      "uid" : "35ff3e81b7f6d846",
+      "parentUid" : "b521e3e149cfc5ab16230d0ffe41ef60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535723558602,
+        "stop" : 1535723565676,
+        "duration" : 7074
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome", "LINUX" ]
     } ],
-    "uid" : "com.waverley.testcases"
+    "uid" : "com.waverley.testcases.WikiSearch"
   } ]
 }
