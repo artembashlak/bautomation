@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "userCanLoginByUsername",
-    "uid" : "613ed8da25164927",
+    "uid" : "981792a087049f59",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -15,7 +15,7 @@
     "parameters" : [ ]
   }, {
     "name" : "loginPageIsAvailble",
-    "uid" : "b1d60fc4e2aca4bb",
+    "uid" : "6815aaa6b6c17c2a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -27,7 +27,7 @@
     "parameters" : [ ]
   }, {
     "name" : "newUserRegistration",
-    "uid" : "5c8754b95f8fc619",
+    "uid" : "cd2da9679c598a64",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {

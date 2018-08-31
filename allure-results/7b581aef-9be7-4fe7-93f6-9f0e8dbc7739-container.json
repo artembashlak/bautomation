@@ -1,0 +1,1 @@
+{"uuid":"7b581aef-9be7-4fe7-93f6-9f0e8dbc7739","name":"com.waverley.testcases.SimpleDockerTest.setUp","description":"","start":1535718891691,"stop":1535718891703,"children":["b9d4bbfc-8ad4-41a2-9871-9c0522bd5f1b"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1535718891692,"stop":1535718891699}]}

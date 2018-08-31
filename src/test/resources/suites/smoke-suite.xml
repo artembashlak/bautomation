@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Smoke suite" >
-    <test name="Chrome tests"  >
+    <test name="Chrome tests">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="platformName" value="LINUX"/>
         <classes>
-            <class name="com.waverley.testcases.LoginBookingTest" />
-            <class name="com.waverley.testcases.LoginPageEndpointsPingTest" />
-            <class name="com.waverley.testcases.SignUpNewUserTest" />
+            <class name="com.waverley.testcases.SimpleDockerTest" />
         </classes>
     </test>
 </suite>

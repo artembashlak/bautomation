@@ -9,7 +9,7 @@
         "name" : "com.waverley.testcases.LoginBookingTest",
         "children" : [ {
           "name" : "userCanLoginByUsername",
-          "uid" : "613ed8da25164927",
+          "uid" : "981792a087049f59",
           "parentUid" : "7073be9199388206b6d49dddb38b2695",
           "status" : "passed",
           "time" : {
@@ -25,7 +25,7 @@
         "name" : "com.waverley.testcases.LoginPageEndpointsPingTest",
         "children" : [ {
           "name" : "loginPageIsAvailble",
-          "uid" : "b1d60fc4e2aca4bb",
+          "uid" : "6815aaa6b6c17c2a",
           "parentUid" : "d68991715c46fd79cc6458064ac021c2",
           "status" : "passed",
           "time" : {
@@ -41,7 +41,7 @@
         "name" : "com.waverley.testcases.SignUpNewUserTest",
         "children" : [ {
           "name" : "newUserRegistration",
-          "uid" : "5c8754b95f8fc619",
+          "uid" : "cd2da9679c598a64",
           "parentUid" : "f2960674fc215a9e8b56b419a184fa79",
           "status" : "failed",
           "time" : {

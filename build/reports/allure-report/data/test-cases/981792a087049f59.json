@@ -1,5 +1,5 @@
 {
-  "uid" : "613ed8da25164927",
+  "uid" : "981792a087049f59",
   "name" : "userCanLoginByUsername",
   "fullName" : "com.waverley.testcases.LoginBookingTest.userCanLoginByUsername",
   "historyId" : "7e903b725a8c0a3dab0752d48de3c93",
@@ -81,12 +81,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "statusMessage" : {
-    "present" : false
-  },
-  "source" : "613ed8da25164927.json",
   "statusDetailsSafe" : {
     "flaky" : false
+  },
+  "source" : "981792a087049f59.json",
+  "statusMessage" : {
+    "present" : false
   },
   "parameterValues" : [ ]
 }

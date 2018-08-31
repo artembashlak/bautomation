@@ -7,7 +7,7 @@
       "name" : "11259@MacBook-Pro2231.local.Test worker(10)",
       "children" : [ {
         "name" : "loginPageIsAvailble",
-        "uid" : "b1d60fc4e2aca4bb",
+        "uid" : "6815aaa6b6c17c2a",
         "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
         "status" : "passed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "userCanLoginByUsername",
-        "uid" : "613ed8da25164927",
+        "uid" : "981792a087049f59",
         "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
         "status" : "passed",
         "time" : {
@@ -31,7 +31,7 @@
         "parameters" : [ ]
       }, {
         "name" : "newUserRegistration",
-        "uid" : "5c8754b95f8fc619",
+        "uid" : "cd2da9679c598a64",
         "parentUid" : "7cecdbccd3a7459af39e5457ea26b530",
         "status" : "failed",
         "time" : {

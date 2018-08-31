@@ -1,5 +1,5 @@
 {
-  "uid" : "b1d60fc4e2aca4bb",
+  "uid" : "6815aaa6b6c17c2a",
   "name" : "loginPageIsAvailble",
   "fullName" : "com.waverley.testcases.LoginPageEndpointsPingTest.loginPageIsAvailble",
   "historyId" : "a8a1b0779955f70b9feb8aa2b95ab4ff",
@@ -81,12 +81,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "statusMessage" : {
-    "present" : false
-  },
-  "source" : "b1d60fc4e2aca4bb.json",
   "statusDetailsSafe" : {
     "flaky" : false
+  },
+  "source" : "6815aaa6b6c17c2a.json",
+  "statusMessage" : {
+    "present" : false
   },
   "parameterValues" : [ ]
 }

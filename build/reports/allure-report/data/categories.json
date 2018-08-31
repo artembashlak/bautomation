@@ -7,7 +7,7 @@
       "name" : "Element not found {#firstName}\nExpected: visible",
       "children" : [ {
         "name" : "newUserRegistration",
-        "uid" : "5c8754b95f8fc619",
+        "uid" : "cd2da9679c598a64",
         "parentUid" : "e136c32d9027ca7ce683f13b9dd90d72",
         "status" : "failed",
         "time" : {
