@@ -6,69 +6,21 @@
     "children" : [ {
       "name" : "Chrome tests",
       "children" : [ {
-        "name" : "com.waverley.testcases.LoginBookingTest",
+        "name" : "com.waverley.testcases.WikiSearch",
         "children" : [ {
-          "name" : "userCanLoginByUsername",
-          "uid" : "302738dae3ef9d2f",
-          "parentUid" : "7073be9199388206b6d49dddb38b2695",
+          "name" : "wikiSearchTest",
+          "uid" : "35ff3e81b7f6d846",
+          "parentUid" : "645e30b6d7c50be33c5fff8f848cd0a7",
           "status" : "passed",
           "time" : {
-            "start" : 1535708723871,
-            "stop" : 1535708732928,
-            "duration" : 9057
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "7073be9199388206b6d49dddb38b2695"
-      }, {
-        "name" : "com.waverley.testcases.LoginPageEndpointsPingTest",
-        "children" : [ {
-          "name" : "loginPageIsAvailble",
-          "uid" : "e506a18537af0988",
-          "parentUid" : "d68991715c46fd79cc6458064ac021c2",
-          "status" : "passed",
-          "time" : {
-            "start" : 1535708733083,
-            "stop" : 1535708735812,
-            "duration" : 2729
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "d68991715c46fd79cc6458064ac021c2"
-      }, {
-        "name" : "com.waverley.testcases.SignUpNewUserTest",
-        "children" : [ {
-          "name" : "newUserRegistration",
-          "uid" : "81485504682fbd2a",
-          "parentUid" : "f2960674fc215a9e8b56b419a184fa79",
-          "status" : "failed",
-          "time" : {
-            "start" : 1535708735819,
-            "stop" : 1535708741073,
-            "duration" : 5254
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "f2960674fc215a9e8b56b419a184fa79"
-      }, {
-        "name" : "com.waverley.testcases.SimpleDockerTest",
-        "children" : [ {
-          "name" : "openGoogle",
-          "uid" : "a9c950bdc3e8fd8c",
-          "parentUid" : "dbbb49b6565a5070b8ec6d74abc794b9",
-          "status" : "passed",
-          "time" : {
-            "start" : 1535719376048,
-            "stop" : 1535719388580,
-            "duration" : 12532
+            "start" : 1535723558602,
+            "stop" : 1535723565676,
+            "duration" : 7074
           },
           "flaky" : false,
           "parameters" : [ "chrome", "LINUX" ]
         } ],
-        "uid" : "dbbb49b6565a5070b8ec6d74abc794b9"
+        "uid" : "645e30b6d7c50be33c5fff8f848cd0a7"
       } ],
       "uid" : "1198fed5a2d347b728f5a604c6e645ea"
     } ],

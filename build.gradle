@@ -21,18 +21,8 @@ ext {
     aspectjweaverVersion = '1.8.13'
     testngVersion = '6.13.1'
     seleniumJavaVersion = '3.8.1'
-    ownerVersion = '1.0.9'
-    lombokVersion = '1.16.18'
-    streamExVersion = '0.6.6'
-    joorVersion = '0.9.6'
     webdriverSupplierVersion = '0.8.0'
     allureTestngVersion = '2.0-BETA21'
-    testDataSupplierVersion = '1.4.0'
-    slf4SimplejVersion = '1.8.0-beta0'
-    mockitoCoreVersion = '2.13.0'
-    powermockApiMockito2Version = '2.0.0-beta.5'
-    powermockModuleTestngVersion = '2.0.0-beta.5'
-    assertjVersion = '3.10.0'
 }
 
 dependencies {
@@ -44,18 +34,7 @@ dependencies {
     testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.4.6'
     compile("org.testng:testng:${testngVersion}",
             "org.seleniumhq.selenium:selenium-java:${seleniumJavaVersion}",
-            "org.aeonbits.owner:owner-java8:${ownerVersion}",
-            "org.projectlombok:lombok:${lombokVersion}",
-            "one.util:streamex:${streamExVersion}",
-            "org.jooq:joor:${joorVersion}",
-            "io.github.sskorol:webdriver-supplier:${webdriverSupplierVersion}",
             "io.qameta.allure:allure-testng:${allureTestngVersion}",
-            "io.github.sskorol:test-data-supplier:${testDataSupplierVersion}",
-            "org.slf4j:slf4j-simple:${slf4SimplejVersion}",
-            "org.mockito:mockito-core:${mockitoCoreVersion}",
-            "org.powermock:powermock-api-mockito2:${powermockApiMockito2Version}",
-            "org.powermock:powermock-module-testng:${powermockModuleTestngVersion}",
-            "org.assertj:assertj-core:${assertjVersion}",
     )
 }
 
@@ -69,7 +48,6 @@ test.doFirst {
 
 test {
     useTestNG() {
-        listeners << 'io.github.sskorol.listeners.BeforeMethodListener'
         suites 'src/test/resources/suites/smoke-suite.xml'
     }
     systemProperty 'allure.results.directory', 'build/allure-results'
