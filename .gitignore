@@ -3,3 +3,6 @@
 build
 *.iml
 .allure
+.target
+out
+gen

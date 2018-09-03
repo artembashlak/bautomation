@@ -1,0 +1,1 @@
+Codebase example of UI automation framework
