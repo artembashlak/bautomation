@@ -27,11 +27,13 @@ ext {
     groovyVersion = "2.4.6"
     sl4jVersion = "1.6.1"
     sl4jdkVersion = "1.7.5"
+    lombokVersion = '1.16.18'
 }
 
 dependencies {
     agent "org.aspectj:aspectjweaver:${aspectjweaverVersion}"
     compile group: 'com.codeborne', name: 'selenide', version: '4.14.0'
+
     testCompile(group: 'io.rest-assured', name: 'rest-assured', version: '3.0.2') {
         exclude(module: 'groovy')
     }
@@ -41,7 +43,10 @@ dependencies {
     compile("org.testng:testng:${testngVersion}",
             "org.seleniumhq.selenium:selenium-java:${seleniumJavaVersion}",
             "io.qameta.allure:allure-testng:${allureTestngVersion}",
-            "org.seleniumhq.selenium:selenium-support:${seleniumSupportVersion}"
+            "org.seleniumhq.selenium:selenium-support:${seleniumSupportVersion}",
+            "org.projectlombok:lombok:${lombokVersion}",
+            'io.github.sskorol:webdriver-supplier:0.8.0'
+
     )
 }
 
@@ -55,6 +60,8 @@ test.doFirst {
 
 test {
     useTestNG() {
+        listeners << 'com.waverley.listeners.VideoRecordingListener'
+        listeners << 'io.github.sskorol.listeners.BeforeMethodListener'
         suites 'src/test/resources/suites/smoke-suite.xml'
     }
     systemProperty 'allure.results.directory', 'build/allure-results'

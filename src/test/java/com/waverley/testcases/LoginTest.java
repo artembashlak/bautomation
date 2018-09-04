@@ -1,6 +1,5 @@
 package com.waverley.testcases;
 
-
 import com.codeborne.selenide.WebDriverRunner;
 import com.waverley.pages.LoginPage;
 import com.waverley.pages.SignUpPage;
@@ -36,6 +35,11 @@ public class LoginTest {
         SignUpPage signUpPage = page(SignUpPage.class);
         open(SIGN_UP_PAGE);
         signUpPage.signUp();
+    }
+
+    @Test
+    public void testFailureTest() {
+      open("negavitetest");
     }
 
     @AfterClass
