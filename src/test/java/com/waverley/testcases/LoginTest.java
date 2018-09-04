@@ -15,6 +15,7 @@ import static com.codeborne.selenide.Selenide.page;
 import static com.waverley.pages.LoginPage.LOGIN_PAGE;
 import static com.waverley.pages.SignUpPage.SIGN_UP_PAGE;
 import static com.waverley.utils.DriverManagerUtil.initChromeDriver;
+import static io.restassured.RestAssured.when;
 
 public class LoginTest {
 
@@ -38,9 +39,11 @@ public class LoginTest {
     }
 
     @Test
-    public void testFailureTest() {
-      open("negavitetest");
+    public void forgotPasswordRest(){
+        when().get("https://waverleybooking.github.io/forgot-password")
+                .then().statusCode(404);
     }
+
 
     @AfterClass
     public void tearDown() {
