@@ -23,18 +23,25 @@ ext {
     seleniumJavaVersion = '3.8.1'
     webdriverSupplierVersion = '0.8.0'
     allureTestngVersion = '2.0-BETA21'
+    seleniumSupportVersion = "3.14.0"
+    groovyVersion = "2.4.6"
+    sl4jVersion = "1.6.1"
+    sl4jdkVersion = "1.7.5"
 }
 
 dependencies {
     agent "org.aspectj:aspectjweaver:${aspectjweaverVersion}"
-    testCompile 'com.codeborne:selenide:4.14.0'
-    testCompile (group: 'io.rest-assured', name: 'rest-assured', version:'3.0.2') {
+    compile group: 'com.codeborne', name: 'selenide', version: '4.14.0'
+    testCompile(group: 'io.rest-assured', name: 'rest-assured', version: '3.0.2') {
         exclude(module: 'groovy')
     }
-    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.4.6'
+    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.6',
+            "org.slf4j:slf4j-simple:${sl4jVersion}",
+            "org.slf4j:slf4j-jdk14:${sl4jdkVersion}"
     compile("org.testng:testng:${testngVersion}",
             "org.seleniumhq.selenium:selenium-java:${seleniumJavaVersion}",
             "io.qameta.allure:allure-testng:${allureTestngVersion}",
+            "org.seleniumhq.selenium:selenium-support:${seleniumSupportVersion}"
     )
 }
 
