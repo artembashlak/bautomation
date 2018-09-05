@@ -7,7 +7,6 @@ import org.openqa.selenium.support.How;
 import static com.codeborne.selenide.Selenide.page;
 
 public class SignUpPage {
-    public static final String SIGN_UP_PAGE = "https://waverleybooking.github.io/sign-up";
 
     @FindBy(how = How.ID, using = "firstName")
     public SelenideElement firstName;
