@@ -46,7 +46,6 @@ dependencies {
             "org.seleniumhq.selenium:selenium-support:${seleniumSupportVersion}",
             "org.projectlombok:lombok:${lombokVersion}",
             'io.github.sskorol:webdriver-supplier:0.8.0'
-
     )
 }
 
@@ -61,6 +60,7 @@ test.doFirst {
 test {
     useTestNG() {
         listeners << 'com.waverley.listeners.VideoRecordingListener'
+        listeners << 'com.waverley.listeners.WebdriverListener'
         listeners << 'io.github.sskorol.listeners.BeforeMethodListener'
         suites 'src/test/resources/suites/smoke-suite.xml'
     }

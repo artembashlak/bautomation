@@ -24,5 +24,4 @@ public class Chrome implements Browser {
         options.setCapability("screenResolution", "1280x1024x24");
         return merge(config, options);
     }
-
 }

@@ -9,10 +9,8 @@ import javax.annotation.CheckReturnValue;
 import static com.waverley.utils.AttachAllureUtils.attachUri;
 
 public class VideoRecordingListener implements IInvokedMethodListener {
-
     @Override
     public void beforeInvocation(final IInvokedMethod method, final ITestResult testResult) {
-        // not implemented
     }
 
     @Override
