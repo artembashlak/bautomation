@@ -13,7 +13,9 @@ public class ScreenShot implements ScreenshotConsumer {
 
     @Override
     public void handle(final byte[] screenshot, final ITestResult testResult) {
-        if (nonNull(screenshot) && testResult.getStatus() == FAILURE) {
+        if (nonNull(screenshot) && testResult.getStatus() == ITestResult.SUCCESS
+                && testResult.getStatus() == ITestResult.FAILURE
+                && testResult.getStatus() == ITestResult.SKIP) {
             attachScreenshot(screenshot,
                     testResult.getMethod().getMethodName() + "_" + LocalDate.now());
         }
