@@ -17,6 +17,7 @@ public class Chrome implements Browser {
 
     @Override
     public Capabilities configuration(final XmlConfig config) {
+        System.setProperty("selenide.browser","com.waverley.browsers.DriverProvider");
         final ChromeOptions options = new ChromeOptions();
         options.setCapability("enableVNC", true);
         options.setCapability("enableVideo", true);
