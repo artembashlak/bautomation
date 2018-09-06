@@ -8,4 +8,12 @@
             <class name="com.waverley.testcases.LoginTest" />
         </classes>
     </test>
+
+    <test name="FF tests">
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="platformName" value="LINUX"/>
+        <classes>
+            <class name="com.waverley.testcases.LoginTest" />
+        </classes>
+    </test>
 </suite>
