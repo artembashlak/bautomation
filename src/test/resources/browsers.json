@@ -1,19 +1,22 @@
 {
   "firefox": {
-    "default": "60.0",
+    "default": "latest",
     "versions": {
-      "60.0": {
-        "image": "selenoid/vnc:firefox_60.0",
-        "port": "4444"
+      "latest": {
+        "image": "selenoid/firefox",
+        "port": "4444",
+        "path": "/wd/hub",
+        "tmpfs": {"/tmp":"size=512m"}
       }
     }
   },
   "chrome": {
-    "default": "67.0",
+    "default": "latest",
     "versions": {
-      "67.0": {
-        "image": "selenoid/vnc:chrome_67.0",
-        "port": "4444"
+      "latest": {
+        "image": "selenoid/chrome",
+        "port": "4444",
+        "tmpfs": {"/tmp":"size=512m"}
       }
     }
   }
